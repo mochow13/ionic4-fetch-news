@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{article.title}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <img *ngIf="article.urlToImage" [src]="article.urlToImage"/>
+    <ion-card-content>
+      <ion-card-title>
+        {{article.title}}
+      </ion-card-title>
+      {{article.content}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
