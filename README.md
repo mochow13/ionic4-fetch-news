@@ -1,2 +1,3 @@
 # ionic4-fetch-news
-Simple Ionic app to fetch news using a news api.
+
+Simple news app built in Ionic 4 along with Angular and TypeScript using https://newsapi.org.
